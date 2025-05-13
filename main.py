@@ -12,13 +12,14 @@ st.set_page_config(page_title="Gestor de Turnos de Fin de Semana", layout="wide"
 st.markdown("""
     <style>
     /* Fondo principal y menú lateral */
-    .stApp { background-color: #181818 !important; }
+    .stApp { background-color: #181818 !important; color: #fff !important; }
     section[data-testid="stSidebar"] {
         background-color: #232323 !important;
         color: #fff !important;
     }
     .css-1d391kg, .css-1lcbmhc, .css-6qob1r, .css-1v0mbdj, .css-1v3fvcr {
         background-color: #232323 !important;
+        color: #fff !important;
     }
     /* Header superior */
     header[data-testid="stHeader"] {
@@ -32,9 +33,13 @@ st.markdown("""
     header[data-testid="stHeader"] div { background: none !important; }
     /* Quita cualquier borde blanco residual */
     .css-18ni7ap { background: none !important; }
-    /* Títulos y textos */
+    /* Títulos y textos principales */
     .big-font, .css-10trblm, .css-1v3fvcr, .css-1v0mbdj, h1, h2, h3, h4, h5, h6 {
         color: #ed6e33 !important;
+    }
+    /* Texto general y de menú */
+    .css-16idsys, .css-1v3fvcr, .css-1v0mbdj, .css-1d391kg, .css-1lcbmhc, .css-6qob1r, .css-1v3fvcr, .css-1v0mbdj, .st-cq, .st-co, .st-cp, .st-bb, .st-emotion-cache-1v0mbdj, .st-emotion-cache-1v3fvcr {
+        color: #f2f2f2 !important;
     }
     /* Botones */
     .stButton>button {
@@ -50,11 +55,19 @@ st.markdown("""
         background-color: #ff944d !important;
         color: #232323 !important;
     }
-    /* Selectbox y radio */
-    .stSelectbox, .stRadio {
+    /* Selectbox, radio y entradas */
+    .stSelectbox, .stRadio, .stTextInput, .stNumberInput, .stDateInput, .stTextArea {
         background-color: #232323 !important;
         color: #fff !important;
         border-radius: 8px !important;
+    }
+    .stSelectbox label, .stRadio label, .stTextInput label, .stNumberInput label, .stDateInput label, .stTextArea label {
+        color: #fff !important;
+    }
+    /* Opciones de selectbox y radio */
+    .css-1wa3eu0-placeholder, .css-1uccc91-singleValue, .css-1okebmr-indicatorSeparator, .css-1pahdxg-control, .css-1n7v3ny-option {
+        color: #fff !important;
+        background: #232323 !important;
     }
     /* Etiquetas y cajas */
     .st-bb, .st-cq, .st-co, .st-cp {
