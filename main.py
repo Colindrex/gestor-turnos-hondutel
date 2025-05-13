@@ -72,7 +72,7 @@ st.markdown("""
         box-shadow: none !important;
     }
 
-    /* Selectbox, radio y entradas elegantes */
+    /* Selectbox, radio y entradas elegantes y con mejor contraste */
     .stSelectbox, .stRadio, .stTextInput, .stNumberInput, .stDateInput, .stTextArea {
         background-color: #232323 !important;
         color: #fff !important;
@@ -80,6 +80,11 @@ st.markdown("""
         border: 1.5px solid #444 !important;
         font-size: 1.06em !important;
         padding: 0.45em 1em !important;
+        box-shadow: none !important;
+    }
+    .stSelectbox:focus, .stTextInput:focus, .stNumberInput:focus, .stDateInput:focus, .stTextArea:focus {
+        border: 1.5px solid #ed6e33 !important;
+        box-shadow: 0 0 0 2px #ed6e33 !important;
     }
     .stSelectbox label, .stRadio label, .stTextInput label, .stNumberInput label, .stDateInput label, .stTextArea label {
         color: #fff !important;
@@ -89,7 +94,15 @@ st.markdown("""
         color: #fff !important;
         background: #232323 !important;
         border-radius: 8px !important;
+        border: none !important;
+        box-shadow: none !important;
     }
+    /* Flecha blanca en select */
+    .stSelectbox svg {
+        color: #fff !important;
+        fill: #fff !important;
+    }
+
     /* Opción seleccionada resaltada */
     .css-1n7v3ny-option[data-selected="true"] {
         background-color: #ed6e33 !important;
@@ -133,18 +146,22 @@ st.markdown("""
     }
 
 
-    /* Menú lateral refinado */
+    /* Menú lateral minimalista y moderno */
     section[data-testid="stSidebar"] ul {
         background: none !important;
         padding-left: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
     }
     section[data-testid="stSidebar"] li {
         background: none !important;
         color: #fff !important;
         border-radius: 8px !important;
         margin-bottom: 2px !important;
-        padding: 5px 10px !important;
+        padding: 7px 14px !important;
         transition: background 0.2s, color 0.2s;
+        border: none !important;
+        box-shadow: none !important;
     }
     section[data-testid="stSidebar"] li:hover {
         background: #ed6e33 !important;
@@ -154,6 +171,13 @@ st.markdown("""
         background: #ff944d !important;
         color: #181818 !important;
         font-weight: bold !important;
+    }
+    /* Quitar borde del contenedor del menú de navegación */
+    section[data-testid="stSidebar"] > div:first-child > div {
+        border: none !important;
+        box-shadow: none !important;
+        background: none !important;
+        padding: 0 !important;
     }
 
     /* Etiquetas y cajas */
