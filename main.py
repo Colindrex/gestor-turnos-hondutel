@@ -21,10 +21,10 @@ st.markdown("""
         background-color: #232323 !important;
         color: #fff !important;
     }
-    /* Header superior refinado */
+    /* Header superior refinado sin línea naranja */
     header[data-testid="stHeader"] {
         background: #111 !important;
-        border-bottom: 2px solid #ed6e33 !important;
+        border-bottom: none !important;
         box-shadow: none !important;
         height: 40px !important;
         min-height: 40px !important;
@@ -96,37 +96,42 @@ st.markdown("""
         color: #181818 !important;
         border-left: 4px solid #ed6e33 !important;
     }
-    /* Radios personalizados en menú y formularios */
+    /* Radios personalizados en menú y formularios - más grandes y visibles */
     .stRadio [role="radiogroup"] > div {
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
     .stRadio [role="radio"] {
         background: none !important;
         border: none !important;
         padding-left: 0 !important;
+        display: flex;
+        align-items: center;
     }
     .stRadio [role="radio"]:before {
         content: "";
         display: inline-block;
-        width: 18px;
-        height: 18px;
+        width: 22px;
+        height: 22px;
         border-radius: 50%;
         background: #232323;
-        border: 2px solid #bbb;
-        margin-right: 10px;
+        border: 2.5px solid #bbb;
+        margin-right: 13px;
         vertical-align: middle;
         box-sizing: border-box;
+        transition: border 0.2s, background 0.2s;
     }
     .stRadio [role="radio"][aria-checked="true"]:before {
         background: #ed6e33;
-        border: 2px solid #ed6e33;
-        box-shadow: 0 0 0 2px #fff inset;
+        border: 2.5px solid #ed6e33;
+        box-shadow: 0 0 0 3px #fff inset;
     }
     .stRadio [role="radio"] span {
         color: #fff !important;
         font-weight: 500;
         vertical-align: middle;
+        font-size: 1.08em;
     }
+
 
     /* Menú lateral refinado */
     section[data-testid="stSidebar"] ul {
