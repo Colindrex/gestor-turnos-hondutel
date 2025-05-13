@@ -8,6 +8,49 @@ from calendar_utils import obtener_fines_de_semana
 import os
 st.set_page_config(page_title="Gestor de Turnos de Fin de Semana", layout="wide")
 
+# --- Estilo personalizado Hondutel ---
+st.markdown("""
+    <style>
+    .stApp { background-color: #181818 !important; }
+    section[data-testid="stSidebar"] {
+        background-color: #232323 !important;
+        color: #fff !important;
+    }
+    .css-1d391kg, .css-1lcbmhc, .css-6qob1r, .css-1v0mbdj, .css-1v3fvcr {
+        background-color: #232323 !important;
+    }
+    .big-font, .css-10trblm, .css-1v3fvcr, .css-1v0mbdj, h1, h2, h3, h4, h5, h6 {
+        color: #ed6e33 !important;
+    }
+    .stButton>button {
+        background-color: #ed6e33 !important;
+        color: #fff !important;
+        border: none !important;
+        border-radius: 8px !important;
+        padding: 0.5em 2em !important;
+        font-weight: bold !important;
+        transition: background 0.2s;
+    }
+    .stButton>button:hover {
+        background-color: #ff944d !important;
+        color: #232323 !important;
+    }
+    .stSelectbox, .stRadio {
+        background-color: #232323 !important;
+        color: #fff !important;
+        border-radius: 8px !important;
+    }
+    .st-bb, .st-cq, .st-co, .st-cp {
+        background-color: #232323 !important;
+        color: #fff !important;
+    }
+    a { color: #ed6e33 !important; }
+    ::-webkit-scrollbar { width: 8px; background: #232323; }
+    ::-webkit-scrollbar-thumb { background: #ed6e33; border-radius: 8px; }
+    </style>
+""", unsafe_allow_html=True)
+
+
 # Mostrar logo si existe
 logo_path = "hondutel_logo.png"
 if os.path.exists(logo_path):
