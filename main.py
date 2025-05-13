@@ -41,25 +41,43 @@ st.markdown("""
     .css-16idsys, .css-1v3fvcr, .css-1v0mbdj, .css-1d391kg, .css-1lcbmhc, .css-6qob1r, .css-1v3fvcr, .css-1v0mbdj, .st-cq, .st-co, .st-cp, .st-bb, .st-emotion-cache-1v0mbdj, .st-emotion-cache-1v3fvcr {
         color: #f2f2f2 !important;
     }
-    /* Botones */
+    /* Botones modernos */
     .stButton>button {
         background-color: #ed6e33 !important;
         color: #fff !important;
         border: none !important;
-        border-radius: 8px !important;
-        padding: 0.5em 2em !important;
+        border-radius: 12px !important;
+        padding: 0.75em 2.5em !important;
         font-weight: bold !important;
-        transition: background 0.2s;
+        font-size: 1.08em !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        transition: background 0.2s, box-shadow 0.2s;
+        outline: none !important;
     }
-    .stButton>button:hover {
-        background-color: #ff944d !important;
-        color: #232323 !important;
+    .stButton>button:hover, .stButton>button:focus {
+        background-color: #c45419 !important;
+        color: #fff !important;
+        box-shadow: 0 4px 16px rgba(237,110,51,0.15);
     }
-    /* Selectbox, radio y entradas */
+    .stButton>button:active {
+        background-color: #a33e0c !important;
+    }
+    .stButton>button:disabled, .stButton>button[disabled] {
+        background-color: #888 !important;
+        color: #fff !important;
+        opacity: 1 !important;
+        cursor: not-allowed !important;
+        box-shadow: none !important;
+    }
+
+    /* Selectbox, radio y entradas elegantes */
     .stSelectbox, .stRadio, .stTextInput, .stNumberInput, .stDateInput, .stTextArea {
         background-color: #232323 !important;
         color: #fff !important;
-        border-radius: 8px !important;
+        border-radius: 10px !important;
+        border: 1.5px solid #444 !important;
+        font-size: 1.06em !important;
+        padding: 0.45em 1em !important;
     }
     .stSelectbox label, .stRadio label, .stTextInput label, .stNumberInput label, .stDateInput label, .stTextArea label {
         color: #fff !important;
@@ -68,7 +86,25 @@ st.markdown("""
     .css-1wa3eu0-placeholder, .css-1uccc91-singleValue, .css-1okebmr-indicatorSeparator, .css-1pahdxg-control, .css-1n7v3ny-option {
         color: #fff !important;
         background: #232323 !important;
+        border-radius: 8px !important;
     }
+    /* Opción seleccionada resaltada */
+    .css-1n7v3ny-option[data-selected="true"], .stRadio [aria-checked="true"] {
+        background-color: #ed6e33 !important;
+        color: #fff !important;
+        border-left: 4px solid #ed6e33 !important;
+    }
+    /* Menú lateral */
+    section[data-testid="stSidebar"] ul, section[data-testid="stSidebar"] li {
+        background: none !important;
+        color: #fff !important;
+        border-radius: 8px !important;
+    }
+    section[data-testid="stSidebar"] li:hover {
+        background: #ed6e33 !important;
+        color: #fff !important;
+    }
+
     /* Etiquetas y cajas */
     .st-bb, .st-cq, .st-co, .st-cp {
         background-color: #232323 !important;
