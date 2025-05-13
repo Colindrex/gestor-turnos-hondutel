@@ -21,16 +21,16 @@ st.markdown("""
         background-color: #232323 !important;
         color: #fff !important;
     }
-    /* Header superior */
+    /* Header superior refinado */
     header[data-testid="stHeader"] {
         background: #111 !important;
-        border-bottom: 4px solid #ed6e33 !important;
+        border-bottom: 2px solid #ed6e33 !important;
         box-shadow: none !important;
-        height: 44px !important;
-        min-height: 44px !important;
-        max-height: 44px !important;
+        height: 40px !important;
+        min-height: 40px !important;
+        max-height: 40px !important;
     }
-    header[data-testid="stHeader"] div { background: none !important; }
+    header[data-testid="stHeader"] div { background: none !important; border: none !important; }
     /* Quita cualquier borde blanco residual */
     .css-18ni7ap { background: none !important; }
     /* Títulos y textos principales */
@@ -41,10 +41,10 @@ st.markdown("""
     .css-16idsys, .css-1v3fvcr, .css-1v0mbdj, .css-1d391kg, .css-1lcbmhc, .css-6qob1r, .css-1v3fvcr, .css-1v0mbdj, .st-cq, .st-co, .st-cp, .st-bb, .st-emotion-cache-1v0mbdj, .st-emotion-cache-1v3fvcr {
         color: #f2f2f2 !important;
     }
-    /* Botones modernos */
+    /* Botones modernos y accesibles */
     .stButton>button {
         background-color: #ed6e33 !important;
-        color: #fff !important;
+        color: #181818 !important;
         border: none !important;
         border-radius: 12px !important;
         padding: 0.75em 2.5em !important;
@@ -53,18 +53,20 @@ st.markdown("""
         box-shadow: 0 2px 8px rgba(0,0,0,0.12);
         transition: background 0.2s, box-shadow 0.2s;
         outline: none !important;
+        letter-spacing: 0.5px;
     }
     .stButton>button:hover, .stButton>button:focus {
-        background-color: #c45419 !important;
-        color: #fff !important;
+        background-color: #ff944d !important;
+        color: #181818 !important;
         box-shadow: 0 4px 16px rgba(237,110,51,0.15);
     }
     .stButton>button:active {
         background-color: #a33e0c !important;
+        color: #fff !important;
     }
     .stButton>button:disabled, .stButton>button[disabled] {
-        background-color: #888 !important;
-        color: #fff !important;
+        background-color: #444 !important;
+        color: #bbb !important;
         opacity: 1 !important;
         cursor: not-allowed !important;
         box-shadow: none !important;
@@ -89,20 +91,64 @@ st.markdown("""
         border-radius: 8px !important;
     }
     /* Opción seleccionada resaltada */
-    .css-1n7v3ny-option[data-selected="true"], .stRadio [aria-checked="true"] {
+    .css-1n7v3ny-option[data-selected="true"] {
         background-color: #ed6e33 !important;
-        color: #fff !important;
+        color: #181818 !important;
         border-left: 4px solid #ed6e33 !important;
     }
-    /* Menú lateral */
-    section[data-testid="stSidebar"] ul, section[data-testid="stSidebar"] li {
+    /* Radios personalizados en menú y formularios */
+    .stRadio [role="radiogroup"] > div {
+        margin-bottom: 8px;
+    }
+    .stRadio [role="radio"] {
+        background: none !important;
+        border: none !important;
+        padding-left: 0 !important;
+    }
+    .stRadio [role="radio"]:before {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: #232323;
+        border: 2px solid #bbb;
+        margin-right: 10px;
+        vertical-align: middle;
+        box-sizing: border-box;
+    }
+    .stRadio [role="radio"][aria-checked="true"]:before {
+        background: #ed6e33;
+        border: 2px solid #ed6e33;
+        box-shadow: 0 0 0 2px #fff inset;
+    }
+    .stRadio [role="radio"] span {
+        color: #fff !important;
+        font-weight: 500;
+        vertical-align: middle;
+    }
+
+    /* Menú lateral refinado */
+    section[data-testid="stSidebar"] ul {
+        background: none !important;
+        padding-left: 0 !important;
+    }
+    section[data-testid="stSidebar"] li {
         background: none !important;
         color: #fff !important;
         border-radius: 8px !important;
+        margin-bottom: 2px !important;
+        padding: 5px 10px !important;
+        transition: background 0.2s, color 0.2s;
     }
     section[data-testid="stSidebar"] li:hover {
         background: #ed6e33 !important;
-        color: #fff !important;
+        color: #181818 !important;
+    }
+    section[data-testid="stSidebar"] li[aria-selected="true"], section[data-testid="stSidebar"] li.selected {
+        background: #ff944d !important;
+        color: #181818 !important;
+        font-weight: bold !important;
     }
 
     /* Etiquetas y cajas */
