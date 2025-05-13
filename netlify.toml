@@ -1,0 +1,3 @@
+[build]
+  command = "streamlit run main.py"
+  publish = "."

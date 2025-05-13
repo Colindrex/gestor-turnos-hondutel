@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.cache/
+
+# Streamlit
+.streamlit/
+
+# Environment
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Notebooks
+*.ipynb_checkpoints
+
+# Data
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.csv
+*.json
+
+# Deployment
+windsurf_deployment.yaml
+netlify.toml
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.svg
+!hondutel_logo.png

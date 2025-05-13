@@ -1,0 +1,384 @@
+[
+  {
+    "periodo": {
+      "inicio": "2025-05-21",
+      "fin": "2025-06-20"
+    },
+    "asignaciones": {
+      "2025-05-24|A": "Rosa",
+      "2025-05-24|B": "Melvin Perdomo",
+      "2025-05-25|A": "Claudia",
+      "2025-05-25|B": "Rosa",
+      "2025-05-31|A": "Claudia",
+      "2025-05-31|B": "Vanesa Pérez",
+      "2025-06-01|A": "Vanesa Pérez",
+      "2025-06-01|B": "Claudia",
+      "2025-06-07|A": "Melvin Ramírez",
+      "2025-06-07|B": "Claudia",
+      "2025-06-08|A": "Melvin Perdomo",
+      "2025-06-08|B": "Melvin Ramírez",
+      "2025-06-14|A": "Melvin Perdomo",
+      "2025-06-14|B": "Maynor",
+      "2025-06-15|A": "Maynor",
+      "2025-06-15|B": "Melvin Perdomo"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-06-21",
+      "fin": "2025-07-20"
+    },
+    "asignaciones": {
+      "2025-06-21|A": "Melvin Perdomo",
+      "2025-06-21|B": "Vanesa Pérez",
+      "2025-06-22|A": "Claudia",
+      "2025-06-22|B": "Melvin Ramírez",
+      "2025-06-28|A": "Melvin Ramírez",
+      "2025-06-28|B": "Rosa",
+      "2025-06-29|A": "Maynor",
+      "2025-06-29|B": "Melvin Perdomo",
+      "2025-07-05|A": "Claudia",
+      "2025-07-05|B": "Maynor",
+      "2025-07-06|A": "Rosa",
+      "2025-07-06|B": "Claudia",
+      "2025-07-12|A": "Vanesa Pérez",
+      "2025-07-12|B": "Claudia",
+      "2025-07-13|A": "Melvin Perdomo",
+      "2025-07-13|B": "Vanesa Pérez",
+      "2025-07-19|A": "Rosa",
+      "2025-07-19|B": "Melvin Perdomo",
+      "2025-07-20|A": "Melvin Ramírez",
+      "2025-07-20|B": "Maynor"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-05-21",
+      "fin": "2025-06-20"
+    },
+    "asignaciones": {
+      "2025-05-24|A": "Claudia",
+      "2025-05-24|B": "Vanesa Pérez",
+      "2025-05-25|A": "Melvin Ramírez",
+      "2025-05-25|B": "Claudia",
+      "2025-05-31|A": "Melvin Ramírez",
+      "2025-05-31|B": "Melvin Perdomo",
+      "2025-06-01|A": "Melvin Perdomo",
+      "2025-06-01|B": "Rosa",
+      "2025-06-07|A": "Melvin Perdomo",
+      "2025-06-07|B": "Rosa",
+      "2025-06-08|A": "Claudia",
+      "2025-06-08|B": "Maynor",
+      "2025-06-14|A": "Maynor",
+      "2025-06-14|B": "Claudia",
+      "2025-06-15|A": "Vanesa Pérez",
+      "2025-06-15|B": "Melvin Perdomo"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-05-21",
+      "fin": "2025-06-20"
+    },
+    "asignaciones": {
+      "2025-05-24|A": "Claudia",
+      "2025-05-24|B": "Maynor",
+      "2025-05-25|A": "Melvin Perdomo",
+      "2025-05-25|B": "Rosa",
+      "2025-05-31|A": "Melvin Ramírez",
+      "2025-05-31|B": "Melvin Perdomo",
+      "2025-06-01|A": "Claudia",
+      "2025-06-01|B": "Vanesa Pérez",
+      "2025-06-07|A": "Rosa",
+      "2025-06-07|B": "Claudia",
+      "2025-06-08|A": "Maynor",
+      "2025-06-08|B": "Melvin Perdomo",
+      "2025-06-14|A": "Melvin Perdomo",
+      "2025-06-14|B": "Vanesa Pérez",
+      "2025-06-15|A": "Melvin Ramírez",
+      "2025-06-15|B": "Claudia"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-05-21",
+      "fin": "2025-06-20"
+    },
+    "asignaciones": {
+      "2025-05-24|A": "Claudia",
+      "2025-05-24|B": "Rosa",
+      "2025-05-25|A": "Melvin Perdomo",
+      "2025-05-25|B": "Melvin Ramírez",
+      "2025-05-31|A": "Melvin Ramírez",
+      "2025-05-31|B": "Claudia",
+      "2025-06-01|A": "Vanesa Pérez",
+      "2025-06-01|B": "Melvin Perdomo",
+      "2025-06-07|A": "Melvin Perdomo",
+      "2025-06-07|B": "Vanesa Pérez",
+      "2025-06-08|A": "Maynor",
+      "2025-06-08|B": "Claudia",
+      "2025-06-14|A": "Maynor",
+      "2025-06-14|B": "Melvin Perdomo",
+      "2025-06-15|A": "Claudia",
+      "2025-06-15|B": "Rosa"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-06-21",
+      "fin": "2025-07-20"
+    },
+    "asignaciones": {
+      "2025-06-21|A": "Melvin Ramírez",
+      "2025-06-21|B": "Melvin Perdomo",
+      "2025-06-22|A": "Vanesa Pérez",
+      "2025-06-22|B": "Claudia",
+      "2025-06-28|A": "Rosa",
+      "2025-06-28|B": "Claudia",
+      "2025-06-29|A": "Melvin Ramírez",
+      "2025-06-29|B": "Melvin Perdomo",
+      "2025-07-05|A": "Jose Colindres",
+      "2025-07-05|B": "Rosa",
+      "2025-07-06|A": "Maynor",
+      "2025-07-06|B": "Melvin Ramírez",
+      "2025-07-12|A": "Melvin Perdomo",
+      "2025-07-12|B": "Vanesa Pérez",
+      "2025-07-13|A": "Claudia",
+      "2025-07-13|B": "Maynor",
+      "2025-07-19|A": "Claudia",
+      "2025-07-19|B": "Maynor",
+      "2025-07-20|A": "Melvin Perdomo",
+      "2025-07-20|B": "Vanesa Pérez"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-08-21",
+      "fin": "2025-09-20"
+    },
+    "asignaciones": {
+      "2025-08-23|A": "Melvin Perdomo",
+      "2025-08-23|B": "Maynor",
+      "2025-08-24|A": "Claudia",
+      "2025-08-24|B": "Rosa",
+      "2025-08-30|A": "Melvin Ramírez",
+      "2025-08-30|B": "Melvin Perdomo",
+      "2025-08-31|A": "Maynor",
+      "2025-08-31|B": "Claudia",
+      "2025-09-06|A": "Claudia",
+      "2025-09-06|B": "Vanesa Pérez",
+      "2025-09-07|A": "Melvin Ramírez",
+      "2025-09-07|B": "Melvin Perdomo",
+      "2025-09-13|A": "Vanesa Pérez",
+      "2025-09-13|B": "Claudia",
+      "2025-09-14|A": "Melvin Perdomo",
+      "2025-09-14|B": "Melvin Ramírez",
+      "2025-09-20|A": "Maynor",
+      "2025-09-20|B": "Vanesa Pérez"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-11-21",
+      "fin": "2025-12-20"
+    },
+    "asignaciones": {
+      "2025-11-22|A": "Claudia",
+      "2025-11-22|B": "Maynor",
+      "2025-11-23|A": "Melvin Perdomo",
+      "2025-11-23|B": "Melvin Ramírez",
+      "2025-11-29|A": "Melvin Perdomo",
+      "2025-11-29|B": "Vanesa Pérez",
+      "2025-11-30|A": "Claudia",
+      "2025-11-30|B": "Melvin Ramírez",
+      "2025-12-06|A": "Maynor",
+      "2025-12-06|B": "Claudia",
+      "2025-12-07|A": "Vanesa Pérez",
+      "2025-12-07|B": "Melvin Perdomo",
+      "2025-12-13|A": "Maynor",
+      "2025-12-13|B": "Melvin Ramírez",
+      "2025-12-14|A": "Vanesa Pérez",
+      "2025-12-14|B": "Claudia",
+      "2025-12-20|A": "Rosa",
+      "2025-12-20|B": "Melvin Perdomo"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-05-21",
+      "fin": "2025-06-20"
+    },
+    "asignaciones": {
+      "2025-05-24|A": "Melvin Perdomo",
+      "2025-05-24|B": "Maynor",
+      "2025-05-25|A": "Claudia",
+      "2025-05-25|B": "Vanesa Pérez",
+      "2025-05-31|A": "Melvin Ramírez",
+      "2025-05-31|B": "Melvin Perdomo",
+      "2025-06-01|A": "Maynor",
+      "2025-06-01|B": "Claudia",
+      "2025-06-07|A": "Claudia",
+      "2025-06-07|B": "Rosa",
+      "2025-06-08|A": "Melvin Perdomo",
+      "2025-06-08|B": "Melvin Ramírez",
+      "2025-06-14|A": "Vanesa Pérez",
+      "2025-06-14|B": "Claudia",
+      "2025-06-15|A": "Rosa",
+      "2025-06-15|B": "Melvin Perdomo"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-06-21",
+      "fin": "2025-07-20"
+    },
+    "asignaciones": {
+      "2025-06-21|A": "Maynor",
+      "2025-06-21|B": "Claudia",
+      "2025-06-22|A": "Vanesa Pérez",
+      "2025-06-22|B": "Melvin Ramírez",
+      "2025-06-28|A": "Rosa",
+      "2025-06-28|B": "Melvin Perdomo",
+      "2025-06-29|A": "Claudia",
+      "2025-06-29|B": "Maynor",
+      "2025-07-05|A": "Rosa",
+      "2025-07-05|B": "Vanesa Pérez",
+      "2025-07-06|A": "Melvin Perdomo",
+      "2025-07-06|B": "Maynor",
+      "2025-07-12|A": "Melvin Perdomo",
+      "2025-07-12|B": "Vanesa Pérez",
+      "2025-07-13|A": "Rosa",
+      "2025-07-13|B": "Claudia",
+      "2025-07-19|A": "Claudia",
+      "2025-07-19|B": "Melvin Ramírez",
+      "2025-07-20|A": "Melvin Ramírez",
+      "2025-07-20|B": "Melvin Perdomo"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-09-21",
+      "fin": "2025-10-20"
+    },
+    "asignaciones": {
+      "2025-09-27|A": "Melvin Perdomo",
+      "2025-09-27|B": "Melvin Ramírez",
+      "2025-09-28|A": "Claudia",
+      "2025-09-28|B": "Rosa",
+      "2025-10-04|A": "Vanesa Pérez",
+      "2025-10-04|B": "Claudia",
+      "2025-10-05|A": "Melvin Perdomo",
+      "2025-10-05|B": "Melvin Ramírez",
+      "2025-10-11|A": "Maynor",
+      "2025-10-11|B": "Melvin Perdomo",
+      "2025-10-12|A": "Claudia",
+      "2025-10-12|B": "Maynor",
+      "2025-10-18|A": "Claudia",
+      "2025-10-18|B": "Rosa",
+      "2025-10-19|A": "Melvin Perdomo",
+      "2025-10-19|B": "Vanesa Pérez"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-07-21",
+      "fin": "2025-08-20"
+    },
+    "asignaciones": {
+      "2025-07-26|A": "Vanesa Pérez",
+      "2025-07-26|B": "Claudia",
+      "2025-07-27|A": "Maynor",
+      "2025-07-27|B": "Melvin Perdomo",
+      "2025-08-02|A": "Melvin Perdomo",
+      "2025-08-02|B": "Rosa",
+      "2025-08-03|A": "Vanesa Pérez",
+      "2025-08-03|B": "Claudia",
+      "2025-08-09|A": "Maynor",
+      "2025-08-09|B": "Melvin Perdomo",
+      "2025-08-10|A": "Rosa",
+      "2025-08-10|B": "Claudia",
+      "2025-08-16|A": "Claudia",
+      "2025-08-16|B": "Melvin Ramírez",
+      "2025-08-17|A": "Melvin Ramírez",
+      "2025-08-17|B": "Melvin Perdomo"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-06-21",
+      "fin": "2025-07-20"
+    },
+    "asignaciones": {
+      "2025-06-21|A": "Claudia",
+      "2025-06-21|B": "Maynor",
+      "2025-06-22|A": "Melvin Ramírez",
+      "2025-06-22|B": "Melvin Perdomo",
+      "2025-06-28|A": "Melvin Perdomo",
+      "2025-06-28|B": "Vanesa Pérez",
+      "2025-06-29|A": "Vanesa Pérez",
+      "2025-06-29|B": "Claudia",
+      "2025-07-05|A": "Vanesa Pérez",
+      "2025-07-05|B": "Melvin Ramírez",
+      "2025-07-06|A": "Melvin Perdomo",
+      "2025-07-06|B": "Maynor",
+      "2025-07-12|A": "Maynor",
+      "2025-07-12|B": "Melvin Perdomo",
+      "2025-07-13|A": "Claudia",
+      "2025-07-13|B": "Melvin Ramírez",
+      "2025-07-19|A": "Melvin Ramírez",
+      "2025-07-19|B": "Claudia",
+      "2025-07-20|A": "Vanesa Pérez",
+      "2025-07-20|B": "Maynor"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-07-21",
+      "fin": "2025-08-20"
+    },
+    "asignaciones": {
+      "2025-07-26|A": "Melvin Ramírez",
+      "2025-07-26|B": "Claudia",
+      "2025-07-27|A": "Melvin Perdomo",
+      "2025-07-27|B": "Melvin Ramírez",
+      "2025-08-02|A": "Claudia",
+      "2025-08-02|B": "Maynor",
+      "2025-08-03|A": "Rosa",
+      "2025-08-03|B": "Melvin Perdomo",
+      "2025-08-09|A": "Melvin Perdomo",
+      "2025-08-09|B": "Vanesa Pérez",
+      "2025-08-10|A": "Vanesa Pérez",
+      "2025-08-10|B": "Claudia",
+      "2025-08-16|A": "Rosa",
+      "2025-08-16|B": "Melvin Perdomo",
+      "2025-08-17|A": "Claudia",
+      "2025-08-17|B": "Maynor"
+    }
+  },
+  {
+    "periodo": {
+      "inicio": "2025-08-21",
+      "fin": "2025-09-20"
+    },
+    "asignaciones": {
+      "2025-08-23|A": "Vanesa Pérez",
+      "2025-08-23|B": "Melvin Perdomo",
+      "2025-08-24|A": "Claudia",
+      "2025-08-24|B": "Melvin Ramírez",
+      "2025-08-30|A": "Melvin Perdomo",
+      "2025-08-30|B": "Vanesa Pérez",
+      "2025-08-31|A": "Vanesa Pérez",
+      "2025-08-31|B": "Claudia",
+      "2025-09-06|A": "Claudia",
+      "2025-09-06|B": "Maynor",
+      "2025-09-07|A": "Melvin Perdomo",
+      "2025-09-07|B": "Vanesa Pérez",
+      "2025-09-13|A": "Maynor",
+      "2025-09-13|B": "Claudia",
+      "2025-09-14|A": "Melvin Ramírez",
+      "2025-09-14|B": "Melvin Perdomo",
+      "2025-09-20|A": "Melvin Ramírez",
+      "2025-09-20|B": "Melvin Ramírez"
+    }
+  }
+]
