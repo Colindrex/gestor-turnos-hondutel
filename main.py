@@ -11,6 +11,7 @@ st.set_page_config(page_title="Gestor de Turnos de Fin de Semana", layout="wide"
 # --- Estilo personalizado Hondutel ---
 st.markdown("""
     <style>
+    /* Fondo principal y menú lateral */
     .stApp { background-color: #181818 !important; }
     section[data-testid="stSidebar"] {
         background-color: #232323 !important;
@@ -19,9 +20,23 @@ st.markdown("""
     .css-1d391kg, .css-1lcbmhc, .css-6qob1r, .css-1v0mbdj, .css-1v3fvcr {
         background-color: #232323 !important;
     }
+    /* Header superior */
+    header[data-testid="stHeader"] {
+        background: #111 !important;
+        border-bottom: 4px solid #ed6e33 !important;
+        box-shadow: none !important;
+        height: 44px !important;
+        min-height: 44px !important;
+        max-height: 44px !important;
+    }
+    header[data-testid="stHeader"] div { background: none !important; }
+    /* Quita cualquier borde blanco residual */
+    .css-18ni7ap { background: none !important; }
+    /* Títulos y textos */
     .big-font, .css-10trblm, .css-1v3fvcr, .css-1v0mbdj, h1, h2, h3, h4, h5, h6 {
         color: #ed6e33 !important;
     }
+    /* Botones */
     .stButton>button {
         background-color: #ed6e33 !important;
         color: #fff !important;
@@ -35,16 +50,20 @@ st.markdown("""
         background-color: #ff944d !important;
         color: #232323 !important;
     }
+    /* Selectbox y radio */
     .stSelectbox, .stRadio {
         background-color: #232323 !important;
         color: #fff !important;
         border-radius: 8px !important;
     }
+    /* Etiquetas y cajas */
     .st-bb, .st-cq, .st-co, .st-cp {
         background-color: #232323 !important;
         color: #fff !important;
     }
+    /* Links */
     a { color: #ed6e33 !important; }
+    /* Scrollbar */
     ::-webkit-scrollbar { width: 8px; background: #232323; }
     ::-webkit-scrollbar-thumb { background: #ed6e33; border-radius: 8px; }
     </style>
